@@ -13,3 +13,7 @@ Functional requirements:
 
 Non-functional requirements:
 - NFR.01 The user must be connected to the Internet to access the application GUI (graphic user interface).
+
+## Deployment diagram
+![enter image description here](deploymentDiagram.png)
+
