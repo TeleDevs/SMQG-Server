@@ -17,3 +17,10 @@ Non-functional requirements:
 ## Deployment diagram
 ![enter image description here](deploymentDiagram.png)
 
+
+## Gateway software
+
+|Chipset   |Repository                        |Tutorial                     |
+|----------------|-------------------------------|-----------------------------|
+|SX1272 and SX1276  |https://github.com/tftelkamp/single_chan_pkt_fwd                      |https://www.embarcados.com.br/lora-arduino-raspberry-pi-shield-dragino/|
+|SX1301 multi-channel modem and SX1257/SX1255 RF transceivers.     |https://github.com/Lora-net/lora_gateway https://github.com/Lora-net/packet_forwarder | https://github.com/mftutui/configuracoes-gateway-ttn |
