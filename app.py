@@ -78,7 +78,7 @@ def exit_handler(sig=None, frame=None):
 
 def start_client():
     client.connect(broker)
-    client.subscribe("SMQG")
+    client.subscribe(topic)
     client.on_message = on_message
     client.loop_forever()
 
