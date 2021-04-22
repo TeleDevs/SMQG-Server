@@ -1,5 +1,7 @@
 # Aplicação SMQG
 ![Diagrama de desenvolvimento](deploymentDiagram.png)
+
+
 O servidor de aplicação consiste em três módulos:
 - Cliente MQTT
 - Banco de dados MYSQL
