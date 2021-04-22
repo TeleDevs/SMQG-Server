@@ -1,18 +1,25 @@
 
-# SMQG Server
+# Aplicação SMQG
+![Diagrama de desenvolvimento](deploymentDiagram.png)
+O servidor de aplicação consiste em três módulos:
+- Cliente MQTT
+- Banco de dados MYSQL
+- Interface gráfica Grafana
 
-The architecture is a IoT publish/subscribe type.
+## Cliente MQTT
+O cliente MQTT foi construído em python e consiste basicamente em se inscrever em um tópico MQTT e popular o modelo MYSQL.
+Sintaxe de execução:
 
-## Requirements
-Functional requirements:
-- FR.01 The system application must persist the receveived endpoint data.
-- FR.02 The system application must have a graphic interface to show the statistics of the endpoint data. 
+        ``
+        python3 app.py <mysql-user> <mysql-pass> <mysql-model> <mqtt-broker> <mqtt-topic>
+        ```
 
-Non-functional requirements:
-- NFR.01 The user must be connected to the Internet to access the application GUI (graphic user interface).
-
-## Deployment diagram
-![deployment diagram](deploymentDiagram.png)
-
-## Database model
 ![database model](databaseModel.png)
+
+## Modelo do banco de dados
+![modelo do banco de dados](databaseModel.png)
+
+## Grafana
+![database model](databaseModel.png)
+
+
