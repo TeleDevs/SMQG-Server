@@ -29,3 +29,11 @@ O modelo foi pensado para que cada sensor possa ser utilizado em diferentes loca
 Os celulares Android (gateways) utilizados para realizar as leituras não são registrados no banco de dados. Isso foi pensado para que qualquer gateaway possa ser utilizado em qualquer local e que mais de um gateway possa fazer leitura de um mesmo local. A informação do gateway não importa para a solução. 
 
 ![modelo do banco de dados](databaseModel.png)
+
+
+
+## Grafana
+![grafana](print_grafana.png)
+
+
+Grafana é uma aplicação web de análise de código aberto multiplataforma e visualização interativa da web. Ele fornece tabelas, gráficos e alertas para a Web quando conectado a fontes de dados suportadas. É expansível através de um sistema de plug-in.
