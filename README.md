@@ -37,3 +37,5 @@ Os celulares Android (gateways) utilizados para realizar as leituras não são r
 
 
 Grafana é uma aplicação web de análise de código aberto multiplataforma e visualização interativa da web. Ele fornece tabelas, gráficos e alertas para a Web quando conectado a fontes de dados suportadas. É expansível através de um sistema de plug-in.
+
+No dashboard desenvolvido é possível exbiri os dados de temperatura e humidate de todos os sensores e de todos os locais.
